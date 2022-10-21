@@ -6,71 +6,28 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link
-      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Coming+Soon&family=Great+Vibes&family=Niconne&family=Parisienne&family=Rancho&display=swap"
-      rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+   <script src="script.js"></script>
    <title>Site de compras</title>
 </head>
 
 <body>
-   <nav>
-      <ul>
-         <li>
-            <div class="logo">
-               <h1>Le Horace</h1>
-            </div>
-         </li>
-         <li>Receitas</li>
-         <li>Dicas</li>
-         <li>Parcerias</li>
-         <li>Cupons</li>
-      </ul>
-   </nav>
-   <div class="hero">
-   </div>
-   <h2>Categorias de Receitas</h2>
-   <div class="cards">
-      <a href="salgados.html">
-         <div class="card">
-            <div class="foto1">
-            </div>
-            <h3>Salgados</h3>
-         </div>
-      </a>
-
-      <div class="card">
-         <div class="foto2">
-         </div>
-         <h3>Doces</h3>
-      </div>
-
-
-      <div class="card">
-         <div class="foto3">
-         </div>
-         <h3>Drinks</h3>
-      </div>
-   </div>
-   <div class="footer">
-      <ul class="siteMap">
-         <li>Receitas <ul class="subLista"><li>Salgados</li><li>Doces</li><li>Drinks</li></ul></li>
-         <li>Dicas</li>
-         <li>Parcerias</li>
-         <li>Cupons</li>
-      </ul>
-      <ul class="socialMedia">
-         <li><a href="#" class="fa fa-facebook"></a></li>
-         <li><a href="#" class="fa fa-twitter"></a></li>
-         <li><a href="#" class="fa fa-google"></a></li>
-         <li><a href="#" class="fa fa-linkedin"></a></li>
-         <li><a href="#" class="fa fa-instagram"></a></li>
+   <h1>Magazine Horácio</h1>
+   <h3>Cadastro de clientes</h3>
+   <h4 id="usuario"></h4>
+   <div class="cadastro">
+      <form>
+         <label for="InputNome">Nome: </label><input type="text" placeholder="Nome" id="InputNome"><br />
+         <label for="InputIdade">Idade: </label><input type="number" placeholder="Idade" id="InputIdade"><br />
+         <label for="InputCEP">CPF: </label><input type="number" placeholder="CPF" id="InputCPF"><br />
+         <label for="InputCEP">CEP: </label><input type="text" placeholder="CEP" id="InputCEP"><br />
+         <label for="InputEndereco">Endereco: </label><input type="string" placeholder="Endereço"
+            id="InputEndereco"><br />
+         <input type="button" value="Cadastrar" onclick="Cadastrar()">
+         <input type="button" value="Exibir" onclick="ExibirCadastros()">
+      </form>
+      <ul id="ListaUsuarios">
       </ul>
    </div>
-   <p class="copyright">Copyright - Etec HAS - Informática 2022</p>
 </body>
 
 </html>
