@@ -1,3 +1,5 @@
+//Exemplo Fetch
+
 let APIurl = 'https://pokeapi.co/api/v2/pokemon'
 let resultado = {}
 
