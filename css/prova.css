@@ -1,0 +1,77 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+   background-size: cover;
+}
+
+.image {
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(0, 0, 0, 0.8);
+   height: 100vh;
+}
+
+.image h1 {
+   font-family: 'Martel Sans', sans-serif;
+   font-size: 3em;
+   color: rgb(229, 9, 20);
+   margin-left: 10%;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+.buttons {
+   margin-right: 10%;
+}
+.buttons button{
+   padding: 8px 32px;
+}
+
+.Email {
+   margin-top: 16px;
+   padding: 16px 64px;
+   color: white;
+   background-color: rgba(50, 50, 50, 0.6);
+   border: 0px;
+}
+
+.primary {
+   color: white;
+   background-color: rgb(229, 9, 20);
+   border: 0px;
+}
+
+.secondary {
+   color: white;
+   background-color: rgba(229, 9, 20, 0.1);
+   border: 0px;
+}
+
+
+
+.cover {   
+   font-family: 'Martel Sans', cursive;
+   color: white;
+   text-align: center;
+}
+
+.cover h2 {
+   font-size: 3rem;
+   padding: 32px;
+   margin-top: 10%;
+}
+
+
+.cover button{
+   margin-top: 16px;
+   padding: 16px 32px;
+   font-size: 1rem;
+}

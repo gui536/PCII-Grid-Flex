@@ -1,0 +1,32 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/*Classe a ser utilizada para os elementos que ficam sobre a imagem*/
+.image {
+   background-color: rgba(0, 0, 0, 0.8);
+   /*Define a altura como 100% da tela. pode se utilizar de outra forma */
+   height: 100vh;
+}
+
+/*DICAS
+Para o tamanho dos botões do cabeçalho, sugestão de tamanho:
+   padding: 8px 32px;
+
+
+Para cor do input utilizar o rgba para colocar transparência.
+   background-color: rgba(50, 50, 50, 0.6);
+   border: 0px;
+
+Vermelho netflix:
+   background-color: rgb(229, 9, 20);
+
+
+Fonte a ser utilizada
+   font-family: 'Martel Sans', cursive;
+
+Imagem para o fundo da tela:
+   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  pode-se utilizar background-size: cover para ajustar o tamanho da tela
+/*
