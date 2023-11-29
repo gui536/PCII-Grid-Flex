@@ -1,0 +1,32 @@
+#ListaPokemon{
+   background-color: brown;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+#ListaPokemon li  {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-decoration: none;
+   list-style: none;
+   background-color: rgb(255, 255, 255);
+   height: 200px;
+   width: 50%;
+   border: 1px;
+   margin: 18px 18px;
+   padding: 18px;
+   border-radius: 15px;
+   box-shadow: 12px 15px 6px -9px rgba(0,0,0,0.3);
+}
+
+#ListaPokemon li img{
+   width: 120px;
+   height: 120px;
+}
+
+#ListaPokemon li button{
+   margin: 16px 32px;
+}
+
+
